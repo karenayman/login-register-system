@@ -9,5 +9,5 @@ function displayUserName() {
 displayUserName()
 function logout(){
   localStorage.removeItem('login_usrname')
-  window.location.href = 'https://karenayman.github.io/login-register-system/index.html'
+  window.location.href = 'https://karenayman.github.io/login-register-system/'
 }
