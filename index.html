@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/all.min.css">
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/index.css">
+   <title>Login</title>
+</head>
+<body>
+   
+   <div class="container add-section py-5 my-5 w-75">
+      <div class="row">
+         <h2 class="text-center sub-head mb-5">
+               Smart Login System
+
+         </h2>
+         <div class="mb-3">
+            <input oninput="" placeholder="enter your email" type="text" name="login_username" id="login_email" class="form-control" placeholder="Bookmark Name" />           
+         </div>
+         <div class="mb-3">
+            <input oninput="" placeholder="enter your password" type="text" name="login_pass" id="login_pass" class="form-control" placeholder="Website Url"
+               aria-describedby="helpId" />
+         </div>
+      </div>
+      <div class="login-error text-danger text-center pb-2 d-none" id="access_wrong">incorrect email or password</div>
+      <div class="login-error text-danger text-center pb-2 d-none" id="access_empty">All inputs is required</div>
+      <button type="button" id="login-button" class="submit-btn btn btn-danger d-block w-100 mb-2" onclick="userDataExist()" >Submit</button>
+      <div class="text-center text-white">Don't have an account? <a class="text-white" href="./register.html">Sign Up</a></div>
+   </div>
+
+   <script src="./js/bootstrap.bundle.min.js"></script>
+   <script src="./js/index.js"></script>
+   
+</body>
+
+</html>

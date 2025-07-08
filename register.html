@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/all.min.css">
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/index.css">
+   <title>Register</title>
+    
+</head>
+<body>
+    <div class="container add-section py-5 my-5 w-75">
+      <div class="row">
+         <h2 class="text-center sub-head mb-5">
+               Smart Login System
+
+         </h2>
+         <div class="mb-3">
+            <input oninput="" placeholder="enter your username" type="text" name="reg_username" id="reg_username" class="form-control"  />           
+         </div>
+         <div class="mb-3">
+            <input oninput="" placeholder="enter your password" type="text" name="reg_pass" id="reg_pass" class="form-control"  />
+         </div>
+         <div class="mb-3">
+            <input oninput="" placeholder="enter your email" type="email" name="reg_email" id="reg_email" class="form-control" />
+         </div>
+      </div>
+      <div class="login-error text-danger text-center pb-2 d-none" id="reg_error_username"></div>
+      <div class="login-error text-danger text-center pb-2 d-none" id="reg_error_password"></div>
+      <div class="login-error text-success text-center pb-2 d-none" id="reg_success">Success</div>
+
+<!-- This Account Already Exist -->
+      <button type="button" id="reg-button" class="submit-btn btn btn-danger d-block w-100 mb-2" onclick="userRegister()" >Sign Up</button>
+      <div class="text-center text-white">You have an account? <a class="text-white" href="./index.html">Sign In</a></div>
+   </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html>

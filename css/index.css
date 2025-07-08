@@ -1,0 +1,90 @@
+body{
+    background-color: #24353f;
+}
+.heading {
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+}
+.heading::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 30%;
+    left: 50%;
+    bottom: 0px;
+    right: 0px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+    display: block;
+    transform: translate(-50%, -50%);
+
+}
+h1.heading:hover::before {
+    height: 60%;
+    bottom: 0px;
+}
+.submit-btn {
+    background-color: transparent;
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    padding: 5px 40px;
+    border-radius: 4px;
+}
+.add-section {      
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    padding: 6em;
+}
+h2.sub-head.text-center {
+    color: #17a2b8;
+    font-family: "Righteous", cursive;
+}
+.visit-btn a{
+    text-decoration: none;
+}
+.visit-btn {
+    color: #ffffff;
+    background-color: #9eb23b;
+}
+.visit-btn:hover {
+    color: #ffffff;
+    background-color: #9eb23b;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    border: navajowhite;
+}
+
+.modal-title div {display: flex;gap: 5px;}
+
+button.close {
+    border: none;
+    background: transparent;
+}
+
+.modal-body i {
+    color: #bb4120;
+}
+.form-control {
+    background: transparent;
+    color: #fff!important;
+    padding: 11px 15px;
+}
+
+.form-control::placeholder {
+    color: #ffffffc2;
+    text-transform: capitalize;
+}
+.btn:hover {
+    background: #17a2b8;
+    border-color: #17a2b8;
+}
+.form-control:focus {
+    background: transparent;
+    border-color: #17a2ad;
+    box-shadow: none;
+}
+.top-header {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
