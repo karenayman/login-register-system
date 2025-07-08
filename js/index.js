@@ -29,7 +29,7 @@ function userDataExist() {
                 console.log(userPassLogin.value);
                 console.log(userEmailLogin.value);
                localStorage.setItem('login_usrname', userDataArrayReg[i].userName)
-                window.location.href = './home.html';
+                window.location.href = 'https://karenayman.github.io/login-register-system/home.html';
                 document.getElementById('access_empty').classList.add('d-none');
                 document.getElementById('access_wrong').classList.add('d-none');
                 return true
